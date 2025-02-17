@@ -12,8 +12,6 @@ const speaker = new Speaker({
 var model = tf.sequential();
 
 model.add(tf.layers.dense({ units: 1024*12, inputShape: [1], activation: "relu" }));
-model.add(tf.layers.dense({ units: 1024*12, activation: "relu" }));
-model.add(tf.layers.dense({ units: 1024*12, activation: "relu" }));
 
 
 model.add(tf.layers.dense({ units: 1, activation: "relu" }));
