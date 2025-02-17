@@ -9,3 +9,5 @@ voidnone716@gmail.com
 can be used to eavesdrop
 
 can use an lstm or any combination of different types of layers
+
+doesnt have  to be amplified
