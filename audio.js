@@ -29,7 +29,7 @@ if (load)
 
 model.compile({
   loss: tf.losses.meanSquaredError,
-  optimizer: tf.train.sgd(0.00001),
+  optimizer: tf.train.adam(0.00001),
   metrics: ['MAE']
 });
 // get debug info if you want
